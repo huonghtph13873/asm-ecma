@@ -67,7 +67,7 @@ const AddnewPage = {
                     >
                     <br />
                     <textarea name="" 
-                            id="desc-post" 
+                            id="content-post" 
                             cols="30" 
                             rows="10" 
                             class="border border-black"
@@ -107,7 +107,7 @@ const AddnewPage = {
             add({
                 title: document.querySelector("#title-post").value,
                 image: response.data.url,
-                content: document.querySelector("#desc-post").value,
+                content: document.querySelector("#content-post").value,
 
             });
             document.location.href = "/admin/news/";

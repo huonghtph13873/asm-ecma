@@ -183,7 +183,7 @@ const content = {
                                 <a href="/new/${post.id}">
                                     <h4 class="font-bold hover:underline">${post.title}</h4>
                                 </a>
-                                <p class="text-[15px] text-[red]">${post.desc}</p>
+                                <p class="text-[15px] text-[red]">${post.content}</p>
                                 <p>130,000,000 lượt xem</p>
                             </div>
                             <div class="conten-item text-center">

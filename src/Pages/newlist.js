@@ -53,7 +53,7 @@ const newlist = {
                 <div class="mr-3">
                     <div class="border-[1px]">
                         <a href="">
-                            <img src="${data.img}">
+                            <img src="${data.image}">
                         </a>
                     </div>
                     
@@ -70,7 +70,7 @@ const newlist = {
                 </div>
                 <div class="detail">
                     <div class="flex ">
-                        <span class="text-red-700 font-semibold text-2xl mr-5 mt-2">${data.desc}</span>
+                        <span class="text-red-700 font-semibold text-2xl mr-5 mt-2">${data.content}</span>
                         
                     </div>
                     
@@ -122,7 +122,7 @@ const newlist = {
         <div class =""> 
               <h1 class="uppercase text-[16px] font-bold border-b-[1px] mt-2 pl-1"> Thông tin chi tiết sản phẩm </h1>
    
-              <p class="text-[14px] leading-[1.8] mb-3">${data.post}
+              <p class="text-[14px] leading-[1.8] mb-3">${data.posts}
                 </p>
         </div>
          

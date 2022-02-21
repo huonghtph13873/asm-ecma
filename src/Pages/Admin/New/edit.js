@@ -61,15 +61,15 @@ const Editnews = {
                     > <br />
                     <input type="file"  
                         class="border border-black"
-                        id="img-post" value="${data.img}"
+                        id="image-post" value="${data.image}"
                     >
                     <br />
                     <textarea name="" 
-                            id="desc-post" 
+                            id="content-post" 
                             cols="30" 
                             rows="10" 
                             class="border border-black"
-                    >${data.desc}</textarea>
+                    >${data.content}</textarea>
                     <button class="inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-[red] hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Sửa</button>
                 </form>
     </div>
@@ -83,14 +83,14 @@ const Editnews = {
     },
     afterRender(id) {
         const formAdd = document.querySelector("#form-add-post");
-        const imgPost = document.querySelector("#img-post");
+        const imagePost = document.querySelector("#image-post");
 
         const CLOUDINARY_API = "https://api.cloudinary.com/v1_1/ecommercer/image/upload";
         const CLOUDINARY_PRESET = "veaztpu6";
 
         formAdd.addEventListener("submit", async (e) => {
             e.preventDefault();
-            const file = imgPost.files[0];
+            const file = imagePost.files[0];
             const formData = new FormData();
             formData.append("file", file);
             formData.append("upload_preset", CLOUDINARY_PRESET);
@@ -103,8 +103,8 @@ const Editnews = {
             upload({
                 id,
                 title: document.querySelector("#title-post").value,
-                img: response.data.url,
-                desc: document.querySelector("#desc-post").value,
+                image: response.data.url,
+                content: document.querySelector("#content-post").value,
 
             });
             document.location.href = "/admin/news/";
