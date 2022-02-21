@@ -127,7 +127,7 @@ const newlist = {
         </div>
          
                     <div class="conten my-[20px]">
-                <h1 class="font-bold text-[20px] py-[20px]">Bài viết</h1>
+                <h1 class="font-bold text-[20px] py-[20px]">New Arrivals</h1>
                 <div class="product grid grid-cols-4 gap-5 ">
                 <form action="">
                 <div class=" khoiy border-solid border-2 border-[#f3f3f3] rounded-lg  ">

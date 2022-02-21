@@ -1,6 +1,6 @@
 import data from "./data";
-import Header from "../components/header";
-import Footer from "../components/footer";
+import Header from "../Components/header";
+import Footer from "../Components/footer";
 
 const DetailNewPage = {
     render(id) {
