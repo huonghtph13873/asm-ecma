@@ -18,23 +18,9 @@
     },
     {
       "title": "gucci",
-      "image": "http://res.cloudinary.com/ecommercer/image/upload/v1645259315/Anh/jijvxlrrzgc7t7m1s1uo.jpg",
-      "introduce": "hihi",
-      "content": "hi 123",
-      "day": "21-02-2022",
-      "id": 1
-    },
-    {
-      "title": "gucci",
-      "img": "http://res.cloudinary.com/ecommercer/image/upload/v1645259315/Anh/jijvxlrrzgc7t7m1s1uo.jpg",
-      "desc": "hi hi hi ",
-      "id": "YyGocau"
-    },
-    {
-      "title": "gucci ",
-      "img": "http://res.cloudinary.com/ecommercer/image/upload/v1645259349/Anh/qsogrujvsexyduigy4zy.jpg",
-      "desc": "abc abc",
-      "id": "rBXfQEv"
+      "image": "http://res.cloudinary.com/ecommercer/image/upload/v1645471386/Anh/vxs0bsfmh7d6psc4w7kn.jpg",
+      "content": "qư2ew",
+      "id": 2
     }
   ],
   "users": [
@@ -57,16 +43,16 @@
       "id": 3
     }
   ],
-  "products" : [
+  "products": [
     {
       "title": "gucci",
-      "img": "http://res.cloudinary.com/ecommercer/image/upload/v1645259315/Anh/jijvxlrrzgc7t7m1s1uo.jpg",
+      "image": "http://res.cloudinary.com/ecommercer/image/upload/v1645259315/Anh/jijvxlrrzgc7t7m1s1uo.jpg",
       "desc": "hi hi hi ",
       "id": "YyGocau"
     },
     {
       "title": "gucci ",
-      "img": "http://res.cloudinary.com/ecommercer/image/upload/v1645259349/Anh/qsogrujvsexyduigy4zy.jpg",
+      "image": "http://res.cloudinary.com/ecommercer/image/upload/v1645259349/Anh/qsogrujvsexyduigy4zy.jpg",
       "desc": "abc abc",
       "id": "rBXfQEv"
     }

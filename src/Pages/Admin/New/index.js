@@ -83,10 +83,10 @@ const NewPage = {
       ${post.title}
               </td>
               <td class="px-6 py-4 whitespace-nowrap">
-   <img src="${post.img}" alt="" width="30%">
+   <img src="${post.image}" alt="" width="30%">
               </td>
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500 ">
-           ${post.desc}
+           ${post.content}
               </td>
               <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
                 <a href="/admin/news/${post.id}/edit" class="text-indigo-600 hover:text-indigo-900">Sửa</a>

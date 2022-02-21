@@ -63,7 +63,7 @@ const AddnewPage = {
                     > <br />
                     <input type="file"  
                         class="border border-black"
-                        id="img-post"
+                        id="image-post"
                     >
                     <br />
                     <textarea name="" 
@@ -87,7 +87,7 @@ const AddnewPage = {
     },
     afterRender() {
         const formAdd = document.querySelector("#form-add-post");
-        const imgPost = document.querySelector("#img-post");
+        const imgPost = document.querySelector("#image-post");
 
         const CLOUDINARY_API = "https://api.cloudinary.com/v1_1/ecommercer/image/upload";
         const CLOUDINARY_PRESET = "veaztpu6";
@@ -106,8 +106,8 @@ const AddnewPage = {
             });
             add({
                 title: document.querySelector("#title-post").value,
-                img: response.data.url,
-                desc: document.querySelector("#desc-post").value,
+                image: response.data.url,
+                content: document.querySelector("#desc-post").value,
 
             });
             document.location.href = "/admin/news/";
