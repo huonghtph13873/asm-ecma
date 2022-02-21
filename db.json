@@ -56,5 +56,19 @@
       "username": "123h",
       "id": 3
     }
+  ],
+  "products" : [
+    {
+      "title": "gucci",
+      "img": "http://res.cloudinary.com/ecommercer/image/upload/v1645259315/Anh/jijvxlrrzgc7t7m1s1uo.jpg",
+      "desc": "hi hi hi ",
+      "id": "YyGocau"
+    },
+    {
+      "title": "gucci ",
+      "img": "http://res.cloudinary.com/ecommercer/image/upload/v1645259349/Anh/qsogrujvsexyduigy4zy.jpg",
+      "desc": "abc abc",
+      "id": "rBXfQEv"
+    }
   ]
 }

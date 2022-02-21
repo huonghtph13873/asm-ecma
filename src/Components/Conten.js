@@ -177,7 +177,7 @@ const content = {
                     <form action="">
                         <div class=" khoiy border-solid border-2 border-[#f3f3f3] rounded-lg  ">
                             <div class=" w-[100%] ">
-                                <a href="/new/${post.id}"> <img src="${post.img}" alt=""></a>
+                                <a href="/new/${post.id}"> <img src="${post.image}" alt=""></a>
                             </div>
                             <div class="py-[10px] px-[10px] leading-8">
                                 <a href="/new/${post.id}">
