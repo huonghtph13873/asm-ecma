@@ -97,6 +97,15 @@ const newlist = {
                                     <a href="" class="text-blue-600 hover:underline">Xem chi tiết</a>
                                 </div>
                             </li>
+                            <li class="inline-flex">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                                <div>
+                                    <span>
+                                        Miễn phí ship toàn quốc
+                                    </span>
+                                    <a href="" class="text-blue-600 hover:underline">Xem chi tiết</a>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                     <div class="btn-buy ">
