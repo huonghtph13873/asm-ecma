@@ -7,6 +7,7 @@ import AddnewPage from "./Pages/Admin/New/add";
 import Editnews from "./Pages/Admin/New/edit";
 import singup from "./Pages/singup";
 import Singin from "./Pages/singin";
+import Blog from "./Pages/blog/index";
 
 const router = new Navigo("/", { linksSelector: "a" });
 
@@ -26,6 +27,7 @@ router.on({
     "/admin/news/:id/edit": ({ data }) => print(Editnews, data.id),
     "/singup": () => print(singup),
     "/singin": () => print(Singin),
+    "/blog": () => print(Blog),
 
 });
 router.resolve();
