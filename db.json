@@ -31,6 +31,12 @@
       "password": "$2a$10$jPRkvfFdbQ.JqAm0u/8cb.AKOmO.k..YUlHDXGG6Fw1WeohLmpioy",
       "username": "huong",
       "id": 2
+    },
+    {
+      "email": "hahuong123@gmail.com",
+      "password": "$2a$10$1V2dN0612BzMcrOBhtIzeOAF9n/vJ1FAuZhC7T5uyexygDN1U28qq",
+      "username": "123h",
+      "id": 3
     }
   ]
 }
