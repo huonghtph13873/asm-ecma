@@ -1,6 +1,10 @@
+import toastr from "toastr";
 import Headers from "../Components/header";
 import footer from "../Components/footer";
-import { get } from "../api/posts";
+import { get } from "../api/product";
+import { $ } from "../utils";
+import { addToCart } from "../utils/cart";
+import "toastr/build/toastr.min.css";
 
 const newlist = {
     async render(id) {
@@ -70,7 +74,7 @@ const newlist = {
                 </div>
                 <div class="detail">
                     <div class="flex ">
-                        <span class="text-red-700 font-semibold text-2xl mr-5 mt-2">${data.content}</span>
+                        <span class="text-red-700 font-semibold text-2xl mr-5 mt-2">${data.price}</span>
                         
                     </div>
                     
@@ -109,7 +113,7 @@ const newlist = {
                         </ul>
                     </div>
                     <div class="btn-buy ">
-                        <button class="w-full bg-red-700 mt-4 rounded-md text-white hover:bg-red-800">
+                        <button class="w-full bg-red-700 mt-4 rounded-md text-white hover:bg-red-800" id="btnAddToCart">
                             <div>
                                 <strong>MUA NGAY</strong>
                             </div>
@@ -207,6 +211,20 @@ const newlist = {
 
 
         `;
+    },
+    afterRender(id) {
+        Headers.afterRender();
+        $("#btnAddToCart").addEventListener("click", async () => {
+            const { data } = await get(id);
+            console.log(data);
+            addToCart(
+                { ...data, quantity: 1 },
+
+                () => {
+                    toastr.success(`Them san pham ${data.name} Thanh cong`);
+                },
+            );
+        });
     },
 };
 export default newlist;

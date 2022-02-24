@@ -1,7 +1,7 @@
 const footer = {
     render() {
         return /* html */ `
-            <div class=" w-[1200px] m-auto grid grid-cols-4 pt-10 pb-10 gap-[20px] ">
+            <div class=" w-[1200px] m-auto grid grid-cols-4 pt-10 pb-10 gap-[20px] bg-[#f3f3f3]">
                 <div class="w-[320px] px-[20px] ">
                     <div>
                         <img src="https://i.pinimg.com/236x/5d/7e/76/5d7e7602868cf3dcf6b8e8abef3b5568.jpg" alt="" width="150px">
@@ -45,7 +45,7 @@ FAQ</a></p>
                     </div>
                 </div>
             </div>
-            <div class="py-3 bg-[#2b2d42] text-center text-xs text-[#ffffff] w-[1200px]">
+            <div class="py-3 bg-[#fd3d57] text-center text-xs text-[#ffffff] w-[1200px]">
                 <p>© RAFCART - All Rights Reserved 2</p>
             </div>
         

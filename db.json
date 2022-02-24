@@ -6,7 +6,7 @@
       "introduce": "hihi",
       "content": "hi 123",
       "day": "21-02-2022",
-      "id": 1
+      "id": 12
     },
     {
       "title": "gucci",
@@ -14,18 +14,54 @@
       "introduce": "hihi",
       "content": "hi 123",
       "day": "21-02-2022",
+      "id": 7
+    },
+    {
+      "title": "gucci",
+      "image": "http://res.cloudinary.com/ecommercer/image/upload/v1645259315/Anh/jijvxlrrzgc7t7m1s1uo.jpg",
+      "introduce": "hihi",
+      "content": "hi 123",
+      "day": "21-02-2022",
+      "id": 6
+    },
+    {
+      "title": "gucci",
+      "image": "http://res.cloudinary.com/ecommercer/image/upload/v1645259315/Anh/jijvxlrrzgc7t7m1s1uo.jpg",
+      "introduce": "hihi",
+      "content": "hi 123",
+      "day": "21-02-2022",
+      "id": 5
+    },
+    {
+      "title": "gucci",
+      "image": "https://tungshop.com/wp-content/uploads/2021/04/nuoc-hoa-LV-Attrape-Reves-nu-NHLV7-2-300x300.jpg",
+      "introduce": "hihi",
+      "content": "hi 123",
+      "day": "21-02-2022",
+      "id": 3
+    },
+    {
+      "title": "gucci",
+      "image": "https://tungshop.com/wp-content/uploads/2021/04/nuoc-hoa-LV-Attrape-Reves-nu-NHLV7-2-300x300.jpg",
+      "introduce": "hihi",
+      "content": "hi 123",
+      "day": "21-02-2022",
       "id": 1
     },
     {
       "title": "gucci",
-      "image": "http://res.cloudinary.com/ecommercer/image/upload/v1645471386/Anh/vxs0bsfmh7d6psc4w7kn.jpg",
-      "content": "qư2ew",
+      "image": "https://tungshop.com/wp-content/uploads/2021/04/nuoc-hoa-LV-Attrape-Reves-nu-NHLV7-2-300x300.jpg",
+      "introduce": "hihi",
+      "content": "hi 123",
+      "day": "21-02-2022",
       "id": 2
     },
     {
       "title": "gucci",
-      "image": "http://res.cloudinary.com/ecommercer/image/upload/v1645471752/Anh/xy9z12cemozju95o87rx.jpg",
-      "content": "rgrxhs",
+      "image": "https://tungshop.com/wp-content/uploads/2021/04/nuoc-hoa-LV-Attrape-Reves-nu-NHLV7-2-300x300.jpg",
+      "introduce": "hihi",
+      "content": "hi 123",
+      "day": "21-02-2022",
       "id": 3
     }
   ],
@@ -47,6 +83,12 @@
       "password": "$2a$10$1V2dN0612BzMcrOBhtIzeOAF9n/vJ1FAuZhC7T5uyexygDN1U28qq",
       "username": "123h",
       "id": 3
+    },
+    {
+      "email": "huonghtph13877773@fpt.edu.vn",
+      "password": "$2a$10$1oxinNKM78VnQNCSjwoNb.RUGd0hiF4hhR99dFW2iIl.sWHo5jlEe",
+      "username": "huong123",
+      "id": 4
     }
   ],
   "products": [
@@ -54,12 +96,14 @@
       "title": "gucci",
       "image": "http://res.cloudinary.com/ecommercer/image/upload/v1645259315/Anh/jijvxlrrzgc7t7m1s1uo.jpg",
       "desc": "hi hi hi ",
+      "price": "2000",
       "id": "YyGocau"
     },
     {
       "title": "gucci ",
       "image": "http://res.cloudinary.com/ecommercer/image/upload/v1645259349/Anh/qsogrujvsexyduigy4zy.jpg",
       "desc": "abc abc",
+      "price": "2000",
       "id": "rBXfQEv"
     }
   ]

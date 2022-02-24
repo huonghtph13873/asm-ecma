@@ -13,9 +13,9 @@ const Headers = {
                 <div>
                     <ul class="w-[800px] mt-5 pl-10 flex ">
                         <li><a class="px-[20px]" href="/">Trang chủ</a></li>
-                        <li><a class="px-[20px]" href="/">Tin tức</a></li>
-                        <li><a class="px-[20px]" href="">Sản phẩm</a></li>
-                        <li><a class="px-[20px]" href="">Bài viết</a></li>
+                        <li><a class="px-[20px]" href="/products">Sản phẩm</a></li>
+                        <li><a class="px-[20px]" href="/blog">Bài viết</a></li>
+                        <li><a class="px-[20px]" href="/">Liên hệ</a></li>
                         <!-- <li class="px-[20px]">
                         <a href="#">Home <span><i class="las la-angle-down"></i></span></a>
                         <ul class="subnav">
@@ -38,7 +38,7 @@ const Headers = {
     </a>
     </span>
                 </div>
-
+<a href="/cart" ><button class="mt-[20px] inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-[red] hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"> Giỏ hàng</button></a>
             </div>
             <div class="bg-[#fd3d57]">
 
@@ -63,7 +63,7 @@ const Headers = {
           <ul class="flex">
    ${localStorage.getItem("user") ? `
                         <li><a class="block px-4 py-3 hover:bg-indigo-500 hover:text-white " id="email"></a></li>
-                        <li><a class="block px-4 py-3 hover:bg-indigo-500 hover:text-white" id="logout">Logout</a></li>
+                        <li><a class="block px-4 py-3 hover:bg-indigo-500 hover:text-white" id="logout">Đăng xuất</a></li>
                     ` : ""}
                      </ul>
                         </div>

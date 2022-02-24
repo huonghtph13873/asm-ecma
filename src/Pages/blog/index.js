@@ -12,7 +12,7 @@ const blog = {
             <article class=" mx-auto w-[1200px] ">
                     
             <div class="conten my-[20px]">
-                <h1 class="font-bold text-[20px] py-[20px]">Recomended For You</h1>
+                <h1 class="font-bold text-[20px] py-[20px]">Bài viết</h1>
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="max-w-2xl mx-auto py-8 sm:py-10 lg:max-w-none">
             <div class="container  mx-auto max-w-7x1">
@@ -40,7 +40,7 @@ const blog = {
 
             </div>
         </article>
-                <footer class="bg-[#f3f3f3] min-w-full m-auto">
+                <footer class="bg-[#f3f3f3] min-w-full m-auto w-[1200px]">
                 ${footer.render()}
                 </footer>
 

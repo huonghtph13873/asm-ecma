@@ -1,6 +1,8 @@
 import {
     signin,
 } from "../api/user";
+import Headers from "../Components/header";
+import footer from "../Components/footer";
 
 const Singin = {
     async render() {
@@ -46,6 +48,7 @@ const Singin = {
     </form>
   </div>
 </div>
+${footer.render()};
 `;
     },
     afterRender() {
@@ -69,5 +72,6 @@ const Singin = {
             }
         });
     },
+
 };
 export default Singin;
